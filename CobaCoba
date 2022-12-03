@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Surat Untuk Kamu</title>
+</head>
+<body>
+    <h1>Kamu mau gk jadi pacarku?</h1>
+    <button onclick="terima()">Mau</button>
+    <button onclick="tolak(this)">Ngga</button>
+
+    <script>
+        function terima() {
+            alert("Terimakasih sudah terima aku jadi pacarmu:)");
+        }
+
+        function tolak(btn){
+            btn.style.position = "absolute";
+            btn.style.left = `${Math.random() * 300}px`;
+            btn.style.left = `${Math.random() * 300}px`;
+
+        }
+    </script>
+</body>
+</html>
