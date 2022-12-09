@@ -15,13 +15,10 @@
         function terima() {
             alert("Terimakasih sudah terima aku jadi pacarmu:)");
         }
-
-        function tolak(btn){
-            btn.style.position = "absolute";
-            btn.style.left = `${Math.random() * 300}px`;
-            btn.style.left = `${Math.random() * 300}px`;
-
+        function tolak(this) {
+            alert("Nice Try to me:)");
         }
+   
     </script>
 </body>
 </html>
